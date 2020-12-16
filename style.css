@@ -1,0 +1,108 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+body{
+    width: 90%;
+   height: 80vh;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom right, rgb(172, 65, 65), rgb(150, 150, 25));
+}
+header nav{
+    width: 100%;
+    min-height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .logo{
+    width: 5%;
+}
+
+header ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+section .textBox{
+    width: 50%;
+}
+
+section .textBox h2{
+    font-size: 4.2rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+section .textBox span{
+    font-size: 4.2rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: red;
+    /* font-family: 'Architects Daughter', cursive; */
+    font-family: 'Lemon', cursive;
+}
+
+section .textBox p{
+    font-size: 1.2rem;
+    color:black;
+}
+
+section .imgBox{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+section .imgBox img{
+   width: 400px;
+    
+}
+.learn{
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 25px;
+    background-color: red;
+    margin: 10px;
+}
+
+
+.learn a{
+    color:white;
+    text-decoration: none;
+;
+}
+
+
+
